@@ -11,7 +11,7 @@ RUN dotnet restore MoneyBankService.Api/MoneyBankService.Api.csproj
 
 COPY . .
 
-RUN dotnet public MoneyBankService.Api/MoneyBankService.Api.csproj -c Release -o /app/publish
+RUN dotnet publish MoneyBankService/MoneyBankService.Api -c Release -o /app/publish
 
 # runtime
 FROM mcr.microsoft.com/dotnet/aspnet:8.0

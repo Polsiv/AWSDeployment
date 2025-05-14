@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\My Stuff\\DotNet\\AWSDeployment\\MoneyBankService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{70A5A46E-7E78-4E43-813D-39AB5D548FAA}|MoneyBankService.Api\\MoneyBankService.Api.csproj|d:\\my stuff\\dotnet\\awsdeployment\\moneybankservice\\moneybankservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A5A46E-7E78-4E43-813D-39AB5D548FAA}|MoneyBankService.Api\\MoneyBankService.Api.csproj|solutionrelative:moneybankservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A5A46E-7E78-4E43-813D-39AB5D548FAA}|MoneyBankService.Api\\MoneyBankService.Api.csproj|d:\\my stuff\\dotnet\\awsdeployment\\moneybankservice\\moneybankservice.api\\moneybankservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{70A5A46E-7E78-4E43-813D-39AB5D548FAA}|MoneyBankService.Api\\MoneyBankService.Api.csproj|solutionrelative:moneybankservice.api\\moneybankservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{70A5A46E-7E78-4E43-813D-39AB5D548FAA}|MoneyBankService.Api\\MoneyBankService.Api.csproj|d:\\my stuff\\dotnet\\awsdeployment\\moneybankservice\\moneybankservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{70A5A46E-7E78-4E43-813D-39AB5D548FAA}|MoneyBankService.Api\\MoneyBankService.Api.csproj|solutionrelative:moneybankservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -25,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{70A5A46E-7E78-4E43-813D-39AB5D548FAA}|MoneyBankService.Api\\MoneyBankService.Api.csproj|d:\\my stuff\\dotnet\\awsdeployment\\moneybankservice\\moneybankservice.api\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70A5A46E-7E78-4E43-813D-39AB5D548FAA}|MoneyBankService.Api\\MoneyBankService.Api.csproj|solutionrelative:moneybankservice.api\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70A5A46E-7E78-4E43-813D-39AB5D548FAA}|MoneyBankService.Api\\MoneyBankService.Api.csproj|d:\\my stuff\\dotnet\\awsdeployment\\moneybankservice\\moneybankservice.api\\moneybankservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{70A5A46E-7E78-4E43-813D-39AB5D548FAA}|MoneyBankService.Api\\MoneyBankService.Api.csproj|solutionrelative:moneybankservice.api\\moneybankservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,6 +47,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\My Stuff\\DotNet\\AWSDeployment\\MoneyBankService\\MoneyBankService.Api\\Program.cs",
+              "RelativeDocumentMoniker": "MoneyBankService.Api\\Program.cs",
+              "ToolTip": "D:\\My Stuff\\DotNet\\AWSDeployment\\MoneyBankService\\MoneyBankService.Api\\Program.cs",
+              "RelativeToolTip": "MoneyBankService.Api\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T23:05:51.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\My Stuff\\DotNet\\AWSDeployment\\MoneyBankService\\MoneyBankService.Api\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "MoneyBankService.Api\\Properties\\launchSettings.json",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\My Stuff\\DotNet\\AWSDeployment\\MoneyBankService\\MoneyBankService.Api\\appsettings.json",
               "RelativeDocumentMoniker": "MoneyBankService.Api\\appsettings.json",
@@ -63,12 +80,11 @@
               "RelativeToolTip": "MoneyBankService.Api\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-14T21:39:05.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T21:39:05.38Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "IRepository.cs",
               "DocumentMoniker": "D:\\My Stuff\\DotNet\\AWSDeployment\\MoneyBankService\\MoneyBankService.Domain\\Common\\IRepository.cs",
               "RelativeDocumentMoniker": "MoneyBankService.Domain\\Common\\IRepository.cs",
@@ -80,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "EntityBase.cs",
               "DocumentMoniker": "D:\\My Stuff\\DotNet\\AWSDeployment\\MoneyBankService\\MoneyBankService.Domain\\Common\\EntityBase.cs",
               "RelativeDocumentMoniker": "MoneyBankService.Domain\\Common\\EntityBase.cs",
@@ -92,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Account.cs",
               "DocumentMoniker": "D:\\My Stuff\\DotNet\\AWSDeployment\\MoneyBankService\\MoneyBankService.Domain\\Entities\\Account.cs",
               "RelativeDocumentMoniker": "MoneyBankService.Domain\\Entities\\Account.cs",
@@ -100,12 +116,11 @@
               "RelativeToolTip": "MoneyBankService.Domain\\Entities\\Account.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T17:20:38.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T17:20:38.887Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AccountsController.cs",
               "DocumentMoniker": "D:\\My Stuff\\DotNet\\AWSDeployment\\MoneyBankService\\MoneyBankService.Api\\Controllers\\AccountsController.cs",
               "RelativeDocumentMoniker": "MoneyBankService.Api\\Controllers\\AccountsController.cs",
@@ -117,15 +132,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "MoneyBankService.Api.csproj",
               "DocumentMoniker": "D:\\My Stuff\\DotNet\\AWSDeployment\\MoneyBankService\\MoneyBankService.Api\\MoneyBankService.Api.csproj",
               "RelativeDocumentMoniker": "MoneyBankService.Api\\MoneyBankService.Api.csproj",
               "ToolTip": "D:\\My Stuff\\DotNet\\AWSDeployment\\MoneyBankService\\MoneyBankService.Api\\MoneyBankService.Api.csproj",
               "RelativeToolTip": "MoneyBankService.Api\\MoneyBankService.Api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-14T17:12:13.092Z"
+              "WhenOpened": "2025-05-14T17:12:13.092Z",
+              "EditorCaption": ""
             }
           ]
         }
