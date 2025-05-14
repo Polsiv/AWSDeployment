@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MoneyBankService.Application/1.0.0": {
+        "dependencies": {
+          "MoneyBankService.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MoneyBankService.Application.dll": {}
+        }
+      },
+      "MoneyBankService.Domain/1.0.0": {
+        "runtime": {
+          "MoneyBankService.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MoneyBankService.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MoneyBankService.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

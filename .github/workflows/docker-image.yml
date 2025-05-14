@@ -1,18 +1,26 @@
-name: Docker Image CI
+name: Deploy via self-hosted runner
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
 
 jobs:
-
-  build:
-
-    runs-on: [self-hosted]
+  deploy:
+    runs-on: [self-hosted]  # Runs *on your EC2*
 
     steps:
-    - uses: actions/checkout@v4
-    - name: Build the Docker image
-      run: docker run -dit ubuntu
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Build Docker image
+      run: docker build -t dotnet-api .
+
+    - name: Stop and remove old container
+      run: |
+        docker stop dotnet-api || true
+        docker rm dotnet-api || true
+
+    - name: Run new container
+      run: |
+        docker run -d --name dotnet-api -p 8080:80 dotnet-api
