@@ -3,10 +3,10 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 
 WORKDIR /app
 
-COPY MoneyBankService.Api/MoneyBankService.Api.csproj MoneyBankService.Api/
-COPY MoneyBankService.Application/MoneyBankService.Application.csproj MoneyBankService.Application/
-COPY MoneyBankService.Domain/MoneyBankService.Domain.csproj MoneyBankService.Domain/
-COPY MoneyBankService.Infrastructure/MoneyBankService.Infrastructure.csproj MoneyBankService.Infrastructure/
+COPY MoneyBankService/MoneyBankService.Api/MoneyBankService.Api.csproj MoneyBankService.Api/
+COPY MoneyBankService/MoneyBankService.Application/MoneyBankService.Application.csproj MoneyBankService.Application/
+COPY MoneyBankService/MoneyBankService.Domain/MoneyBankService.Domain.csproj MoneyBankService.Domain/
+COPY MoneyBankService/MoneyBankService.Infrastructure/MoneyBankService.Infrastructure.csproj MoneyBankService.Infrastructure/
 RUN dotnet restore MoneyBankService.Api/MoneyBankService.Api.csproj
 
 COPY . .
