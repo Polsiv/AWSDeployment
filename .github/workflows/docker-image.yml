@@ -65,9 +65,9 @@ jobs:
         with:
           name: newman-results
           path: newman-results.xml
-          
+
   deploy:
-    needs: build-and-push
+    needs: postman-tests
     runs-on: [self-hosted]  # EC2 intance
 
     steps:
