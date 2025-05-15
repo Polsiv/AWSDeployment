@@ -1510,7 +1510,7 @@
 	"variable": [
 		{
 			"key": "BaseUrl",
-			"value": "http://18.219.229.46/api",
+			"value": "http://localhost/api",
 			"type": "string"
 		},
 		{

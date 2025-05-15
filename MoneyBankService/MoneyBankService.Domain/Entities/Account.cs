@@ -20,6 +20,7 @@ namespace MoneyBankService.Domain.Entities
         [Required]
         public decimal BalanceAmount { get; set; }
 
+        [Required]
         public decimal OverdraftAmount { get; set; }
     }
 }
