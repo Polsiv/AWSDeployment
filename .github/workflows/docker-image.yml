@@ -59,7 +59,7 @@ jobs:
           --reporter-junit-export newman-results.xml
 
     - name: Upload test results
-      if: always()
+      if: always()  # Ensures this runs even if Newman fails
       uses: actions/upload-artifact@v3
       with:
         name: newman-results
