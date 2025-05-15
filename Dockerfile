@@ -10,7 +10,6 @@ COPY MoneyBankService/MoneyBankService.Infrastructure/MoneyBankService.Infrastru
 RUN dotnet restore MoneyBankService.Api/MoneyBankService.Api.csproj
 
 COPY . .
-
 RUN dotnet publish MoneyBankService/MoneyBankService.Api -c Release -o /app/publish
 
 # runtime
@@ -18,5 +17,4 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
 COPY --from=build /app/publish .
 
-EXPOSE 80
 ENTRYPOINT ["dotnet", "MoneyBankService.Api.dll"]
