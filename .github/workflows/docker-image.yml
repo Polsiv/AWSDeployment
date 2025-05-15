@@ -59,7 +59,7 @@ jobs:
           --reporter-junit-export newman-results.xml
 
     - name: Upload test results
-    if: always():
+    if: always()
     uses: actions/upload-artifact@v3
     with:
       name: newman-results
