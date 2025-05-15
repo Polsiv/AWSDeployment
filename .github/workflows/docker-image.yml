@@ -39,7 +39,7 @@ jobs:
         docker rm dotnet-api || true
 
     - name: Run new container
-      run: docker run -d --name dotnet-api -p 80:8080 ${{ secrets.DOCKER_USERNAME }}/dotnet-api:latests
+      run: docker run -d --name dotnet-api -p 80:8080 ${{ secrets.DOCKER_USERNAME }}/dotnet-api:latest
 
   postman-tests:
     needs: deploy
