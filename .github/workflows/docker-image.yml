@@ -46,11 +46,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
     - name: Install Newman
       run: npm install -g newman
 
     - name: Run Postman Tests
-    run: |
+      run: |
         newman run Tests/MoneyBankService.postman_collection.json \
           --reporters cli,junit \
           --reporter-junit-export newman-results.xml
