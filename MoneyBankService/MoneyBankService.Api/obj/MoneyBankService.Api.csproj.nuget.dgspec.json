@@ -35,6 +35,9 @@
               "D:\\My Stuff\\DotNet\\AWSDeployment\\MoneyBankService\\MoneyBankService.Application\\MoneyBankService.Application.csproj": {
                 "projectPath": "D:\\My Stuff\\DotNet\\AWSDeployment\\MoneyBankService\\MoneyBankService.Application\\MoneyBankService.Application.csproj"
               },
+              "D:\\My Stuff\\DotNet\\AWSDeployment\\MoneyBankService\\MoneyBankService.Domain\\MoneyBankService.Domain.csproj": {
+                "projectPath": "D:\\My Stuff\\DotNet\\AWSDeployment\\MoneyBankService\\MoneyBankService.Domain\\MoneyBankService.Domain.csproj"
+              },
               "D:\\My Stuff\\DotNet\\AWSDeployment\\MoneyBankService\\MoneyBankService.Infrastructure\\MoneyBankService.Infrastructure.csproj": {
                 "projectPath": "D:\\My Stuff\\DotNet\\AWSDeployment\\MoneyBankService\\MoneyBankService.Infrastructure\\MoneyBankService.Infrastructure.csproj"
               }
@@ -57,14 +60,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[12.0.1, )"
-            },
-            "FluentValidation": {
-              "target": "Package",
-              "version": "[11.7.1, )"
-            },
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[11.3.0, )"
@@ -72,6 +67,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.10, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -154,6 +153,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -291,23 +300,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[9.0.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[9.0.5, )"
-            },
-            "MySql.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[8.0.11, )"
             }
           },
           "imports": [

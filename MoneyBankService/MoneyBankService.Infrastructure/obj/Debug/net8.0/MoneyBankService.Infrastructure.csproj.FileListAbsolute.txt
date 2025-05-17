@@ -1,5 +1,4 @@
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Infrastructure\bin\Debug\net8.0\MoneyBankService.Infrastructure.deps.json
-D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Infrastructure\bin\Debug\net8.0\MoneyBankService.Infrastructure.runtimeconfig.json
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Infrastructure\bin\Debug\net8.0\MoneyBankService.Infrastructure.dll
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Infrastructure\bin\Debug\net8.0\MoneyBankService.Infrastructure.pdb
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Infrastructure\bin\Debug\net8.0\MoneyBankService.Application.dll
@@ -16,5 +15,4 @@ D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Infrastructur
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Infrastructure\obj\Debug\net8.0\MoneyBankService.Infrastructure.dll
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Infrastructure\obj\Debug\net8.0\refint\MoneyBankService.Infrastructure.dll
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Infrastructure\obj\Debug\net8.0\MoneyBankService.Infrastructure.pdb
-D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Infrastructure\obj\Debug\net8.0\MoneyBankService.Infrastructure.genruntimeconfig.cache
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Infrastructure\obj\Debug\net8.0\ref\MoneyBankService.Infrastructure.dll

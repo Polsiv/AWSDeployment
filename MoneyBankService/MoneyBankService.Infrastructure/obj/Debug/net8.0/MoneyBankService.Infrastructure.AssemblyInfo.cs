@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MoneyBankService.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8dd295e45270fbbbcac7267cbdc98b07b453100f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a21b2ae4f36d5a278fcfc8677ed22aa0807b9d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("MoneyBankService.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MoneyBankService.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

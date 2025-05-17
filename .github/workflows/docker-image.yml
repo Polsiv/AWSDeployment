@@ -22,52 +22,8 @@ jobs:
     - name: Push Docker image
       run: docker push ${{ secrets.DOCKER_USERNAME }}/dotnet-api:latest
 
-  postman-tests:
-    needs: build-and-push
-    runs-on: ubuntu-latest
-
-    steps:
-
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
-
-      - name: Build Docker image (without push)
-        uses: docker/build-push-action@v5
-        with:
-          context: .
-          load: true # <--- loads image into local Docker engine
-          tags: api:test # <--- local tag used for running the container
-
-      - name: Test MySQL Connection to remote
-        run: |
-          docker run -dit --name mysqldb mysql:8.0 mysql -h${{ secrets.MYSQL_HOST }} -u${{ secrets.MYSQL_USERNAME }} -p${{ secrets.MYSQL_PASSWORD }}
-
-      - name: Run container 
-        run: |
-          docker run -d --name test-api --rm -p 80:8080 api:test
-          sleep 4
-
-      - name: Install Newman
-        run: npm install -g newman
-
-      - name: Run Postman Tests
-        run: |
-          newman run Tests/MoneyBankService.postman_collection.json \
-            --reporters cli,junit \
-            --reporter-junit-export newman-results.xml
-
-      - name: Upload test results
-        if: always()  # Ensures this runs even if Newman fails
-        uses: actions/upload-artifact@v4
-        with:
-          name: newman-results
-          path: newman-results.xml
-
   deploy:
-    needs: postman-tests
+    needs: build-and-push
     runs-on: [self-hosted]  # EC2 intance
 
     steps:

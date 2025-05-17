@@ -19,14 +19,12 @@ D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Api\bin\Debug
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Api\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Api\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Api\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Api\bin\Debug\net8.0\MySql.Data.dll
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Api\bin\Debug\net8.0\MySql.EntityFrameworkCore.dll
@@ -35,7 +33,6 @@ D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Api\bin\Debug
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Api\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Api\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Api\bin\Debug\net8.0\System.IO.Pipelines.dll
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Api\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Api\bin\Debug\net8.0\System.Security.Permissions.dll
