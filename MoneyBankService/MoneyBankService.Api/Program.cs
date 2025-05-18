@@ -44,7 +44,7 @@ if (app.Environment.IsDevelopment())
 }
 
 // Add the Exception Middleware Handler
-//app.UseExceptionMiddleware();
+app.UseExceptionMiddleware();
 
 app.UseHttpsRedirection();
 
