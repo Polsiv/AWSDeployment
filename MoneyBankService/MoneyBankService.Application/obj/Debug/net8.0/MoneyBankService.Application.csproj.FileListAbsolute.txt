@@ -1,0 +1,16 @@
+D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Application\bin\Debug\net8.0\MoneyBankService.Application.deps.json
+D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Application\bin\Debug\net8.0\MoneyBankService.Application.dll
+D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Application\bin\Debug\net8.0\MoneyBankService.Application.pdb
+D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Application\bin\Debug\net8.0\MoneyBankService.Domain.dll
+D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Application\bin\Debug\net8.0\MoneyBankService.Domain.pdb
+D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Application\obj\Debug\net8.0\MoneyBankService.Application.csproj.AssemblyReference.cache
+D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Application\obj\Debug\net8.0\MoneyBankService.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Application\obj\Debug\net8.0\MoneyBankService.Application.AssemblyInfoInputs.cache
+D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Application\obj\Debug\net8.0\MoneyBankService.Application.AssemblyInfo.cs
+D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Application\obj\Debug\net8.0\MoneyBankService.Application.csproj.CoreCompileInputs.cache
+D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Application\obj\Debug\net8.0\MoneyBankService.Application.sourcelink.json
+D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Application\obj\Debug\net8.0\MoneyBan.8FEA3CD9.Up2Date
+D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Application\obj\Debug\net8.0\MoneyBankService.Application.dll
+D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Application\obj\Debug\net8.0\refint\MoneyBankService.Application.dll
+D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Application\obj\Debug\net8.0\MoneyBankService.Application.pdb
+D:\My Stuff\DotNet\AWSDeployment\MoneyBankService\MoneyBankService.Application\obj\Debug\net8.0\ref\MoneyBankService.Application.dll
